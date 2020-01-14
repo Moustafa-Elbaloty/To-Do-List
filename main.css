@@ -1,0 +1,49 @@
+.box,
+form {
+    background: #eeeeee;
+    padding: 15px;
+    box-sizing: border-box;
+    max-width: 50%;
+    margin: 50px auto;
+    border-radius: 6px
+}
+
+form input {
+    width: calc(100% - 7em);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none
+}
+
+
+
+.task {
+    background: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 10px auto;
+    border-radius: 10px
+}
+
+.taskClick {
+    background: #fbf8f8
+}
+
+.btnDel,
+button {
+    padding: 9px;
+    margin-left: 15px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.btnDel {
+    padding: 3px;
+
+}
